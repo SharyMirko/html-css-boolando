@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+main {
+    max-width: 660px;
+    margin: auto;
+    padding-top: 1em;
+}
+
+main::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.column {
+    width: 200px;
+    height: 300px;
+    background-color: chartreuse;
+    margin-right: 1em;
+    margin-top: 1em;
+    float: left;
+    position: relative;
+}
+
+.column img {
+    visibility: hidden;
+    width: 200px;
+    height: 300px;
+}
+
+.column:hover img {
+    visibility: visible;
+}
+
+.one {
+    background-image: url(../img/1.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.two {
+    background-image: url(../img/2.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.three {
+    background-image: url(../img/3.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.four {
+    background-image: url(../img/4.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.five {
+    background-image: url(../img/5.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.six {
+    background-image: url(../img/6.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.like {
+    width: 20px;
+    height: 20px;
+    background-color: azure;
+    line-height: 20px;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 180px;
+    text-align: center;
+}
+
+.like:hover {
+    color: red;
+}
+
+.sale {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    line-height: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 6px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.sustainability {
+    height: 15px;
+    background-color: green;
+    line-height: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 6px;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
