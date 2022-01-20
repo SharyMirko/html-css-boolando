@@ -23,7 +23,6 @@ main::after {
 .column {
     width: 200px;
     height: 300px;
-    background-color: chartreuse;
     margin-right: 1em;
     margin-top: 3em;
     float: left;
@@ -41,37 +40,37 @@ main::after {
 }
 
 .one {
-    background-image: url(../img/1.webp);
+    background-image: url(img/1.webp);
     background-position: center;
     background-size: cover;
 }
 
 .two {
-    background-image: url(../img/2.webp);
+    background-image: url(img/2.webp);
     background-position: center;
     background-size: cover;
 }
 
 .three {
-    background-image: url(../img/3.webp);
+    background-image: url(img/3.webp);
     background-position: center;
     background-size: cover;
 }
 
 .four {
-    background-image: url(../img/4.webp);
+    background-image: url(img/4.webp);
     background-position: center;
     background-size: cover;
 }
 
 .five {
-    background-image: url(../img/5.webp);
+    background-image: url(img/5.webp);
     background-position: center;
     background-size: cover;
 }
 
 .six {
-    background-image: url(../img/6.webp);
+    background-image: url(img/6.webp);
     background-position: center;
     background-size: cover;
 }
@@ -102,6 +101,7 @@ main::after {
     font-size: 6px;
     position: absolute;
     bottom: 10px;
+    color: white;
 }
 
 .sustainability {
@@ -114,6 +114,7 @@ main::after {
     position: absolute;
     bottom: 10px;
     left: 20px;
+    color: white;
 }
 
 .sustainability2 {
@@ -125,6 +126,7 @@ main::after {
     font-size: 6px;
     position: absolute;
     bottom: 10px;
+    color: white;
 }
 
 .brand {
